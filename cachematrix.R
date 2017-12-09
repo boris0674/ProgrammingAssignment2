@@ -100,7 +100,8 @@ invertible <- abs(det(artmatrix)) > 0
 ## so we can use artmatrix in our experiment
 
 
-## I create an object using artmatrix as the input data into makeCacheMatrix
+## I create an object called try (not super confidente here)
+## using artmatrix as the input data into makeCacheMatrix
 
 try <- makeCacheMatrix(artmatrix)
 
@@ -108,7 +109,8 @@ try <- makeCacheMatrix(artmatrix)
 
 try$get()
 
- try$get()
+## our art matrix of art markets quarterly yields 
+
   contemporary dopoguerra paintings     prints sculptures
 1    3.6199095 -3.1620553  0.781250  3.2258065  2.4590164
 2    5.7416268 -4.5283019  0.000000  0.8130081  3.3898305
